@@ -3,7 +3,10 @@
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-native",
-    "lib": ["dom", "esnext"],
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "moduleResolution": "node",
     "noEmit": true,
     "skipLibCheck": true,
@@ -15,6 +18,7 @@
   ],
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-  ]
+    "**/*.tsx"
+  ],
+  "extends": "expo/tsconfig.base"
 }
